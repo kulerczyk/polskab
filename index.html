@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preorder Płyty</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('polska b.jpg');
+            background-size: 69%;
+            background-position: center;
+            background-color: #000000;
+            text-align: center;
+            padding: 20px;
+        }
+        form {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            max-width: 400px;
+            margin: auto;
+        }
+        input, textarea {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 2px solid #000000;
+            border-radius: 5px;
+        }
+        button {
+            background: #0f0f0f;
+            color: rgba(255, 255, 255, 0.524);
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #555;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            color: #ffffff;
+            text-align: left;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h1>ZAMÓW PREORDER</h1>
+    <form action="https://formsubmit.co/karwanpreorder@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="Imię i Nazwisko" required>
+        <input type="tel" name="phone" placeholder="Numer telefonu" required>
+        <input type="email" name="email" placeholder="Adres e-mail" required>
+        <input type="cd" name="cd" placeholder="Ile płyt" required>
+        <textarea name="address" placeholder="Adres do wysyłki (numer paczkomatu)" required></textarea>
+        <button type="submit">Zamawiam</button>
+    </form>
+    <footer>
+        <p> ©loiknat1. </p>
+    </footer>
+</body>
+</html>
